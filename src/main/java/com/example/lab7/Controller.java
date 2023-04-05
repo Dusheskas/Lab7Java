@@ -30,7 +30,7 @@ public class Controller {
     @FXML
     void onSetBtn(ActionEvent event) {
         labelRes.setText(textField.getText());
-
+        String text = labelRes.getText();
     }
 
     @FXML
